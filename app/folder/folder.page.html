@@ -1,0 +1,30 @@
+<ion-content [fullscreen]="true">
+  <main class="bg-img">
+    <div class="logo">
+      <h1>Simple Parking</h1>
+    </div>
+    <div class="box-log">
+     
+      <div id="container">
+      <input type="text" id="usuario" class="text-login" autocomplete="off" placeholder="Usuario">
+  
+      <label for="usuario" class="label">Usuario</label>
+     </div>
+  
+     <div id="container-02">
+      <input type="password" id="password" class="text-login" autocomplete="off" placeholder="Senha">
+  
+      <label for="password" class="label">Senha</label>
+  
+      <div class="cheqout">
+        <a>Cadastre-se</a>
+    
+                     ou
+    
+                     
+      <ion-button  expand="block" color="success" (click)="abrirPagina('/home')">ENTRAR</ion-button>
+       </div>
+     </div>
+    </div>
+  </main>
+  </ion-content>
